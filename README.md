@@ -6,3 +6,5 @@ Sunucunuzda (Linux) livestreamer,ffmpeg Kurulu Olması Gerekiyor.
 - [ffmpeg](https://github.com/FFmpeg)
 - [php](http://php.net/)
 - [apache](https://www.apache.org/)
+
+#### Not: Aktif olarak 3 yıldır 7 / 24 bu dosya ile kayıt yapıyorum
