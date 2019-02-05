@@ -23,7 +23,7 @@
                 $youtube       		    =   	"https://www.youtube.com/watch?v=".$findId;
                 $download_txt   		=   	$folder.'/'.$date.".txt";
                 /* best yerine 260p 360p 480p yazılıp o kalitede görüntü alınabilir. */
-                $youtube_xml    		=   	"sudo livestreamer  ".$youtube."  best --stream-url --yes-run-as-root > ".$download_txt;
+                $youtube_xml    		=   	"sudo streamlink  ".$youtube."  best --stream-url --yes-run-as-root > ".$download_txt;
                 exec($youtube_xml, $sonuc_xml);
                 $txt            		=       fopen($download_txt, 'r');
                 $txt_xml        		=       trim(fread($txt, filesize($download_txt)));
