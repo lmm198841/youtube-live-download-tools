@@ -8,3 +8,4 @@ Sunucunuzda (Linux) streamlink,ffmpeg Kurulu Olması Gerekiyor.
 - [apache](https://www.apache.org/)
 
 #### Not: Aktif olarak 3 yıldır 7 / 24 bu dosya ile kayıt yapıyorum
+#### Not: streamlink'de cözemediğim bir sorundan sebeb çalışmıyor.
